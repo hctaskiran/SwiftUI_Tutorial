@@ -6,22 +6,55 @@
 //
 
 import SwiftUI
+import Kingfisher
 
-struct ContentView: View {
+struct IconFieldView: View {
+    var iconName: String = "Hello"
+    @State var textFieldValue: String = ""
+    @State var textFieldValuee: String = ""
     
     var body: some View {
         VStack {
-            Group {
-//                MARK: Login Page
-                Text("Hako33231").foregroundColor(.purple)
-                    
-            }
-            Group{
-//                MARK: Register Page
-                VStack {
-                    Image(systemName: "personalhotspot")
-                    Text("Hako33231").foregroundColor(.yellow).bold().italic()
-                }
+            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $textFieldValue)
+            Text(textFieldValue)
+                .font(.headline)
+                .bold()
+            
+            Image(systemName: textFieldValue.lowercased()).frame(width: 100, height: 100, alignment: .center)
+            
+            TextField("Placeholdr", text: $textFieldValuee)
+            Text(textFieldValuee)
+                .font(.headline)
+                .bold()
+            
+            Image(systemName: textFieldValuee.lowercased()).frame(width: 100, height: 100, alignment: .center)
+        }
+    }
+}
+
+
+struct ContentView: View {
+    private let imageurl = "https://picsum.photos/200/300"
+    
+    var body: some View {
+        CircleImageUrlView(title:"What a lovely view!!", imageUrl: imageurl).frame(width: 300, height: 300, alignment: .center)
+        
+    }
+}
+
+fileprivate func groupViews() -> some View {
+    return VStack {
+        Group {
+            //                MARK: Login Page
+            Text("Hako33231").foregroundColor(.purple)
+        
+            
+        }
+        Group{
+            //                MARK: Register Page
+            VStack {
+                Image(systemName: "personalhotspot")
+                Text("Hako33231").foregroundColor(.yellow).bold().italic()
             }
         }
     }
