@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A3848D6B2B742F0F0002DA2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A3848D6A2B742F0F0002DA2D /* Kingfisher */; };
 		A3848D6E2B7433430002DA2D /* CircleImageUrlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3848D6D2B7433430002DA2D /* CircleImageUrlView.swift */; };
+		A3848D712B74FDCB0002DA2D /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3848D702B74FDCB0002DA2D /* SampleListView.swift */; };
 		A3EDDA462B25C26000E820F7 /* SwiftUI_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDA452B25C26000E820F7 /* SwiftUI_TutorialApp.swift */; };
 		A3EDDA482B25C26000E820F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDA472B25C26000E820F7 /* ContentView.swift */; };
 		A3EDDA4A2B25C26200E820F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EDDA492B25C26200E820F7 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		A3848D6D2B7433430002DA2D /* CircleImageUrlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageUrlView.swift; sourceTree = "<group>"; };
+		A3848D702B74FDCB0002DA2D /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
 		A3EDDA422B25C26000E820F7 /* SwiftUI_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EDDA452B25C26000E820F7 /* SwiftUI_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialApp.swift; sourceTree = "<group>"; };
 		A3EDDA472B25C26000E820F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A3848D6F2B74FDB70002DA2D /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				A3848D702B74FDCB0002DA2D /* SampleListView.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
 		A3EDDA392B25C26000E820F7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		A3EDDA442B25C26000E820F7 /* SwiftUI_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A3848D6F2B74FDB70002DA2D /* Feature */,
 				A3848D6C2B7433280002DA2D /* View */,
 				A3EDDA452B25C26000E820F7 /* SwiftUI_TutorialApp.swift */,
 				A3EDDA472B25C26000E820F7 /* ContentView.swift */,
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3848D712B74FDCB0002DA2D /* SampleListView.swift in Sources */,
 				A3EDDA482B25C26000E820F7 /* ContentView.swift in Sources */,
 				A3EDDA462B25C26000E820F7 /* SwiftUI_TutorialApp.swift in Sources */,
 				A3848D6E2B7433430002DA2D /* CircleImageUrlView.swift in Sources */,
