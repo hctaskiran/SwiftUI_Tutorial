@@ -3,7 +3,6 @@
 //  SwiftUI_Tutorial
 //
 //  Created by Haktan Can Taşkıran on 8.02.2024.
-//
 
 import SwiftUI
 
