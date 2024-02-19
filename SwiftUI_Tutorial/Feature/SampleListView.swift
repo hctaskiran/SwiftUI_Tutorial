@@ -26,6 +26,7 @@ struct SampleListView: View {
                     }
                     Text("Hello")
                     Text("Hello")
+                    Text("Hako is the best")
                 })
                 
                 Section(header: Text("Application").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/),content:{

@@ -9,8 +9,8 @@ import SwiftUI
 import Kingfisher
 
 struct CircleImageUrlView: View {
-    let title: String
-    let imageUrl: String
+    var title: String
+    var imageUrl: String
     
     var body: some View {
         VStack {

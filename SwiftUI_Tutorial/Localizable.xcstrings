@@ -1,0 +1,104 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "33231" : {
+
+    },
+    "Account" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesap"
+          }
+        }
+      }
+    },
+    "Application" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama"
+          }
+        }
+      }
+    },
+    "Hako is the best" : {
+
+    },
+    "Hako!" : {
+
+    },
+    "Hako33231" : {
+
+    },
+    "Hello" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slm"
+          }
+        }
+      }
+    },
+    "Placeholder" : {
+
+    },
+    "Placeholdr" : {
+
+    },
+    "Profile" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil"
+          }
+        }
+      }
+    },
+    "Sample1" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ornek1"
+          }
+        }
+      }
+    },
+    "Sample2" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ornek2"
+          }
+        }
+      }
+    },
+    "Sample3" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ornek3"
+          }
+        }
+      }
+    },
+    "Sample4" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ornek4"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

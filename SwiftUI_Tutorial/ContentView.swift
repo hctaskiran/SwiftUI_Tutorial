@@ -35,9 +35,10 @@ struct IconFieldView: View {
 
 struct ContentView: View {
     private let imageurl = "https://picsum.photos/200/300"
+    private var usman: String = "What a lovely view!"
     
     var body: some View {
-        CircleImageUrlView(title:"What a lovely view!!", imageUrl: imageurl).frame(width: 300, height: 300, alignment: .center)
+        CircleImageUrlView(title: usman, imageUrl: imageurl).frame(width: 300, height: 300, alignment: .center)
         
     }
 }

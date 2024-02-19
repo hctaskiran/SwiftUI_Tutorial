@@ -10,6 +10,10 @@
 		A3848D6B2B742F0F0002DA2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A3848D6A2B742F0F0002DA2D /* Kingfisher */; };
 		A3848D6E2B7433430002DA2D /* CircleImageUrlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3848D6D2B7433430002DA2D /* CircleImageUrlView.swift */; };
 		A3848D712B74FDCB0002DA2D /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3848D702B74FDCB0002DA2D /* SampleListView.swift */; };
+		A38D22272B83277100CC6D06 /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D22262B83277100CC6D06 /* ModelListView.swift */; };
+		A38D222B2B832B3700CC6D06 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D222A2B832B3700CC6D06 /* TweetModel.swift */; };
+		A38D222D2B8331A600CC6D06 /* TweetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D222C2B8331A600CC6D06 /* TweetCard.swift */; };
+		A3BA3EBB2B7B5F3B0087DD2E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A3BA3EBA2B7B5F3A0087DD2E /* Localizable.xcstrings */; };
 		A3EDDA462B25C26000E820F7 /* SwiftUI_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDA452B25C26000E820F7 /* SwiftUI_TutorialApp.swift */; };
 		A3EDDA482B25C26000E820F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDA472B25C26000E820F7 /* ContentView.swift */; };
 		A3EDDA4A2B25C26200E820F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EDDA492B25C26200E820F7 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* Begin PBXFileReference section */
 		A3848D6D2B7433430002DA2D /* CircleImageUrlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageUrlView.swift; sourceTree = "<group>"; };
 		A3848D702B74FDCB0002DA2D /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
+		A38D22262B83277100CC6D06 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
+		A38D222A2B832B3700CC6D06 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		A38D222C2B8331A600CC6D06 /* TweetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCard.swift; sourceTree = "<group>"; };
+		A3BA3EBA2B7B5F3A0087DD2E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		A3EDDA422B25C26000E820F7 /* SwiftUI_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EDDA452B25C26000E820F7 /* SwiftUI_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialApp.swift; sourceTree = "<group>"; };
 		A3EDDA472B25C26000E820F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,9 +57,20 @@
 		A3848D6F2B74FDB70002DA2D /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				A38D22252B83275C00CC6D06 /* ModelList */,
 				A3848D702B74FDCB0002DA2D /* SampleListView.swift */,
 			);
 			path = Feature;
+			sourceTree = "<group>";
+		};
+		A38D22252B83275C00CC6D06 /* ModelList */ = {
+			isa = PBXGroup;
+			children = (
+				A38D22262B83277100CC6D06 /* ModelListView.swift */,
+				A38D222A2B832B3700CC6D06 /* TweetModel.swift */,
+				A38D222C2B8331A600CC6D06 /* TweetCard.swift */,
+			);
+			path = ModelList;
 			sourceTree = "<group>";
 		};
 		A3EDDA392B25C26000E820F7 = {
@@ -76,6 +95,7 @@
 				A3848D6F2B74FDB70002DA2D /* Feature */,
 				A3848D6C2B7433280002DA2D /* View */,
 				A3EDDA452B25C26000E820F7 /* SwiftUI_TutorialApp.swift */,
+				A3BA3EBA2B7B5F3A0087DD2E /* Localizable.xcstrings */,
 				A3EDDA472B25C26000E820F7 /* ContentView.swift */,
 				A3EDDA492B25C26200E820F7 /* Assets.xcassets */,
 				A3EDDA4B2B25C26200E820F7 /* Preview Content */,
@@ -136,6 +156,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = A3EDDA392B25C26000E820F7;
 			packageReferences = (
@@ -157,6 +178,7 @@
 			files = (
 				A3EDDA4D2B25C26200E820F7 /* Preview Assets.xcassets in Resources */,
 				A3EDDA4A2B25C26200E820F7 /* Assets.xcassets in Resources */,
+				A3BA3EBB2B7B5F3B0087DD2E /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,8 +191,11 @@
 			files = (
 				A3848D712B74FDCB0002DA2D /* SampleListView.swift in Sources */,
 				A3EDDA482B25C26000E820F7 /* ContentView.swift in Sources */,
+				A38D222D2B8331A600CC6D06 /* TweetCard.swift in Sources */,
 				A3EDDA462B25C26000E820F7 /* SwiftUI_TutorialApp.swift in Sources */,
+				A38D222B2B832B3700CC6D06 /* TweetModel.swift in Sources */,
 				A3848D6E2B7433430002DA2D /* CircleImageUrlView.swift in Sources */,
+				A38D22272B83277100CC6D06 /* ModelListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
