@@ -29,4 +29,4 @@ struct TweetCard: View {
 
 #Preview {
     TweetCard(tweet: TweetModel.fakeTweet).previewLayout(.sizeThatFits)
-} 
+}

@@ -1,6 +1,12 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@" : {
+
+    },
+    "%lld" : {
+
+    },
     "33231" : {
 
     },
@@ -43,6 +49,15 @@
         }
       }
     },
+    "Label" : {
+
+    },
+    "No boats for renting yet" : {
+
+    },
+    "No cars for renting yet" : {
+
+    },
     "Placeholder" : {
 
     },
@@ -58,6 +73,12 @@
           }
         }
       }
+    },
+    "Rent a Boat" : {
+
+    },
+    "Rent a Car" : {
+
     },
     "Sample1" : {
       "localizations" : {
@@ -98,6 +119,15 @@
           }
         }
       }
+    },
+    "Toggle Sheet" : {
+
+    },
+    "Welcome to Tweet Model List!" : {
+
+    },
+    "Yasarken Olenler" : {
+
     }
   },
   "version" : "1.0"

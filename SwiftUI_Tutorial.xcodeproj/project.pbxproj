@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A332DF512B84BD1D006E0D28 /* NavigationUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332DF502B84BD1D006E0D28 /* NavigationUsers.swift */; };
+		A332DF532B84BD55006E0D28 /* NavUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332DF522B84BD55006E0D28 /* NavUserModel.swift */; };
+		A332DF552B84C2FD006E0D28 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332DF542B84C2FD006E0D28 /* UserDetailView.swift */; };
+		A332DF582B84CAE4006E0D28 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332DF572B84CAE4006E0D28 /* CustomTabView.swift */; };
 		A3848D6B2B742F0F0002DA2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A3848D6A2B742F0F0002DA2D /* Kingfisher */; };
 		A3848D6E2B7433430002DA2D /* CircleImageUrlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3848D6D2B7433430002DA2D /* CircleImageUrlView.swift */; };
 		A3848D712B74FDCB0002DA2D /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3848D702B74FDCB0002DA2D /* SampleListView.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A332DF502B84BD1D006E0D28 /* NavigationUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUsers.swift; sourceTree = "<group>"; };
+		A332DF522B84BD55006E0D28 /* NavUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavUserModel.swift; sourceTree = "<group>"; };
+		A332DF542B84C2FD006E0D28 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		A332DF572B84CAE4006E0D28 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		A3848D6D2B7433430002DA2D /* CircleImageUrlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageUrlView.swift; sourceTree = "<group>"; };
 		A3848D702B74FDCB0002DA2D /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
 		A38D22262B83277100CC6D06 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A332DF4F2B84BD07006E0D28 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A332DF502B84BD1D006E0D28 /* NavigationUsers.swift */,
+				A332DF522B84BD55006E0D28 /* NavUserModel.swift */,
+				A332DF542B84C2FD006E0D28 /* UserDetailView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A332DF562B84CADA006E0D28 /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				A332DF572B84CAE4006E0D28 /* CustomTabView.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
 		A3848D6C2B7433280002DA2D /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +83,8 @@
 		A3848D6F2B74FDB70002DA2D /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				A332DF562B84CADA006E0D28 /* CustomTabView */,
+				A332DF4F2B84BD07006E0D28 /* Navigation */,
 				A38D22252B83275C00CC6D06 /* ModelList */,
 				A3848D702B74FDCB0002DA2D /* SampleListView.swift */,
 			);
@@ -191,9 +219,13 @@
 			files = (
 				A3848D712B74FDCB0002DA2D /* SampleListView.swift in Sources */,
 				A3EDDA482B25C26000E820F7 /* ContentView.swift in Sources */,
+				A332DF512B84BD1D006E0D28 /* NavigationUsers.swift in Sources */,
+				A332DF532B84BD55006E0D28 /* NavUserModel.swift in Sources */,
 				A38D222D2B8331A600CC6D06 /* TweetCard.swift in Sources */,
 				A3EDDA462B25C26000E820F7 /* SwiftUI_TutorialApp.swift in Sources */,
 				A38D222B2B832B3700CC6D06 /* TweetModel.swift in Sources */,
+				A332DF582B84CAE4006E0D28 /* CustomTabView.swift in Sources */,
+				A332DF552B84C2FD006E0D28 /* UserDetailView.swift in Sources */,
 				A3848D6E2B7433430002DA2D /* CircleImageUrlView.swift in Sources */,
 				A38D22272B83277100CC6D06 /* ModelListView.swift in Sources */,
 			);
